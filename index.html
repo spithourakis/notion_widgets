@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz de Eisenhower</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .matrix {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .quadrant {
+            border: 2px solid #333;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .quadrant h2 {
+            margin-top: 0;
+            text-align: center;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .urgent-important { background-color: #ffcccc; }
+        .not-urgent-important { background-color: #ccffcc; }
+        .urgent-not-important { background-color: #ffffcc; }
+        .not-urgent-not-important { background-color: #ccccff; }
+    </style>
+</head>
+<body>
+    <h1>Matriz de Eisenhower</h1>
+    <div class="matrix">
+        <div class="quadrant urgent-important">
+            <h2>1. Fazer Imediatamente</h2>
+            <ul>
+                <li>Entregar relatório de vendas até amanhã</li>
+                <li>Resolver problema crítico no servidor</li>
+                <li>Atender cliente VIP com reclamação urgente</li>
+            </ul>
+        </div>
+        <div class="quadrant not-urgent-important">
+            <h2>2. Agendar para Fazer Depois</h2>
+            <ul>
+                <li>Planejar estratégia de marketing para o próximo trimestre</li>
+                <li>Agendar treinamento de equipe em novas tecnologias</li>
+                <li>Revisar e atualizar o plano de negócios</li>
+            </ul>
+        </div>
+        <div class="quadrant urgent-not-important">
+            <h2>3. Delegar para Outra Pessoa</h2>
+            <ul>
+                <li>Responder e-mails não críticos</li>
+                <li>Organizar arquivos do projeto concluído</li>
+                <li>Agendar reuniões de rotina (atualização de status)</li>
+            </ul>
+        </div>
+        <div class="quadrant not-urgent-not-important">
+            <h2>4. Eliminar ou Deixar por Último</h2>
+            <ul>
+                <li>Navegar em redes sociais sem propósito</li>
+                <li>Reorganizar a área de trabalho do computador</li>
+                <li>Ler artigos não relacionados ao trabalho</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
